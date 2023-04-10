@@ -6,7 +6,7 @@ const routes: Routes = [
   // { path: 'home', component: UnderConstructionComponent },
   // { path: 'summary/month', component: MonthSumaryComponent },
   // { path: 'summary/annual', component: UnderConstructionComponent },
-  // { path: 'settings', component: SettingsComponent },
+  { path: 'settings', loadChildren: () => import('./settings/settings.module').then(m => m.SettingsModule) }
   // { path: 'test', component: EmptyComponent}
 ];
 
