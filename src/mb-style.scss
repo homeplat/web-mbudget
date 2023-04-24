@@ -1,0 +1,87 @@
+/* Custom Styling
+================================ */
+
+.mb-blue {
+  color: #334960;
+}
+
+.mb-darkblue {
+  color: #576475;
+}
+
+.mb-orange {
+  color: #f46524;
+}
+
+.mb-grey {
+  color: #bcbcbc;
+}
+
+.mb-red {
+  color: #f00;
+}
+
+.mb-gblue {
+  color: #687887;
+}
+
+.mb-strong {
+  font-size: 2em;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.mb-upc-bold {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.mb-right {
+  float: right !important;
+}
+
+.mb-al-right {
+  text-align: right;
+  padding-right: 5px;
+}
+
+.mb-al-left {
+  text-align: left;
+  padding-left: 5px;
+}
+
+.mb-italic {
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+.mb-small {
+  max-width: 375px;
+}
+
+.mb-card {
+  background-color: #fff;
+  margin: 7px;
+  padding: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.mb-card-grey {
+  margin: auto;
+  display: block;
+  background-color: #ebedef;
+  border: solid 1px #bcbcbc;
+  padding: 40px;
+  text-align: center;
+}
+
+.mb-card-grey hr {
+  background-color: #d6d6d6;
+  border-top: 1px dashed #939393;
+  border-bottom: 0px;
+  width: 70%;
+}
+
+.mb-no-padding {
+  padding: 5px !important;
+}
